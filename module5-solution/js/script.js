@@ -118,7 +118,6 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
      
-      chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
 
 
